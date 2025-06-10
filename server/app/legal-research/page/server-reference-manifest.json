@@ -1,0 +1,16 @@
+{
+  "node": {
+    "404a655cbcf33854070feccdff3261e4acf3554ce5": {
+      "workers": {
+        "app/legal-research/page": {
+          "moduleId": "[project]/.next-internal/server/app/legal-research/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/legal-research-flow.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/legal-research/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

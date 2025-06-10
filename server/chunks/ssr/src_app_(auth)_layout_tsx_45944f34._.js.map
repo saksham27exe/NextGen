@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/src/app/%28auth%29/layout.tsx"],"sourcesContent":["\nimport type { ReactNode } from 'react';\n\nexport default function AuthLayout({ children }: { children: ReactNode }) {\n  return (\n    <div className=\"flex items-center justify-center min-h-[calc(100vh-var(--header-height,80px)-var(--footer-height,80px))]\">\n      {/* \n        The min-h calculation attempts to center content vertically, \n        assuming header and footer heights. These CSS variables would need \n        to be set elsewhere or approximated if not available.\n        A simpler approach might be `min-h-screen py-12` on the direct child of body\n        and then use flex to center its content.\n        However, this layout is specifically for auth pages, so it's applied within the main layout flow.\n      */}\n      {children}\n    </div>\n  );\n}\n\n    "],"names":[],"mappings":";;;;;AAGe,SAAS,WAAW,EAAE,QAAQ,EAA2B;IACtE,qBACE,8OAAC;QAAI,WAAU;kBASZ;;;;;;AAGP","debugId":null}}]
+}

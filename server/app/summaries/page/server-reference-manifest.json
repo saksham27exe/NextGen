@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40cbc95aac4bd78c48ca5ace6520f5f8510d4ae75b": {
+      "workers": {
+        "app/summaries/page": {
+          "moduleId": "[project]/.next-internal/server/app/summaries/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/case-summarizer.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/summaries/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}
